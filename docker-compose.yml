@@ -1,0 +1,21 @@
+web:
+  build: .
+  ports:
+    - "7200:80"
+  links:
+    - db
+  volumes:
+    - .:/code
+  container_name: cities-web
+db:
+#  image: "mariadb:10.4"
+  image: "mysql:5.7"
+  container_name: cities-db
+  ports: 
+    - 3100:3306
+  volumes:
+    - ./mysql:/etc/mysql/conf.d
+    - kargin-utkin:/var/lib/mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: Test000000
+    MYSQL_DATABASE: cities

@@ -1,2 +1,4 @@
 User-Agent: *
-Disallow: /ssi/
+Host: www.cities.ru
+Disallow: /cgi-bin/
+Sitemap: http://www.cities.ru/sitemap.xml

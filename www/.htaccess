@@ -1,0 +1,5 @@
+order allow,deny
+allow from all
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule sitemap.xml sitemap.php [QSA,L]

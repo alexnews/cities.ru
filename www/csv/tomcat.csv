@@ -1,0 +1,1 @@
+"FAQ","Unable to Access Tomcat Manager 6, 7, 8 and 9","vi webapps/manager/META-INF/context.xml comment out <Valve className='org.apache.catalina.valves.RemoteAddrValve'  allow='127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1' />"

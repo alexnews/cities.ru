@@ -1,0 +1,19 @@
+"DevOps","DevOps is ___________", "a never-ending process of continuous improvement."
+"DevOps","Continuous Deployment means ________________", "the process where the code changes are automatically built, tested, and prepared for a release to production and all the processes remains to execute in a continuous  manner"
+"DevOps","Which among these tool are used at Continuous Deployment stage?", "ALL"
+"DevOps","Which is true for Agile methodology?", "Deployment is at the end stage and is done once."
+"DevOps","Continuous Monitoring ____________________","reduces organizations downtime by increasing the visibility into the infrastructure"
+
+
+
+"git","How can I know if a branch has been already merged into master?","git branch --merged master"
+
+"git","Which command helps to solve a merge conflict issue in git? Please note: You need to select one process from the options which will be one of the correct process. However we have multiple process to solve this merge conflict.","apt-get install kdiff3 and git mergetool"
+"git","What is the command to know if a branch is not merged to master branch in git?","git branch -no-merged"
+"git","What is the command to update the changes made in local repository in remote reposistory","git push"
+"git","What is the command to see all the commits made in the current branch","git log"
+"maven","Which is not true for the POM file?","There is pom file for every project"
+"maven","Which of the following is true about capability of maven?","Deployable artifacts can be generated from source code"
+"git","How to start already existing project from git","git init, git remote add origin https://github.com/alexnews/HelloWorld.git, git fetch, git pull, git add ., git commit -m 'frick', git push"
+"git","how to create ssh key to access","cd ~./ssh, ssh-keygen -o -t rsa -C <your@email.com>, cat /home/username/.ssh/id_rsa.pub"
+"maven","how to install maven","wget http://mirrors.ibiblio.org/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz, tar -xzf apache-maven-3.6.0-bin.tar.gz, cp -R apache-maven-3.6.0 /opt/maven, export PATH=/opt/maven/bin:$PATH"

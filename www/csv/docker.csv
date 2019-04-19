@@ -1,0 +1,4 @@
+"FAQ","How to rebuild docker-compose?","docker-compose build --no-cache"
+"FAQ","How to start Docker-compose on the background","docker-compose up -d"
+"FAQ","Why my docker-compose fail?","docker-compose logs"
+"FAQ","Show running dockers","docker ps"
